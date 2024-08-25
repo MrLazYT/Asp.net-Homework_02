@@ -1,0 +1,10 @@
+﻿@page
+@model homework_2.Pages.Task_02Model
+@{
+    Random rnd = new Random();
+    char rndLetter = (char)rnd.Next(65, 90);
+}
+
+<div>
+    <h3>Random Letter: @rndLetter</h3>
+</div>
